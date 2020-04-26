@@ -12,3 +12,10 @@ def countdown(second)
   end
    "HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep
+  count = 1000
+  while count > 0
+    count -= 1
+  end
+end
