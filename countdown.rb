@@ -13,9 +13,6 @@ def countdown(second)
    "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep
-  count = 1000
-  while count > 0
-    count -= 1
-  end
+def countdown_with_sleep(arg)
+  sleep(arg_secs)
 end
