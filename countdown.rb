@@ -4,6 +4,7 @@ def countdown(second)
   while second > 0
     if second > 1
       puts "#{second} SECONDS!"
+      second -= 1
     else
       puts "#{second} SECONDS!"
       second -= 1
