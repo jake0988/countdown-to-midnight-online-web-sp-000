@@ -6,7 +6,7 @@ def countdown(second)
       puts "#{second} SECOND(S)!"
       second -= 1
     else
-      puts "#{second} SECONDS!"
+      puts "#{second} SECOND!"
       second -= 1
     end
   end
